@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Spark — Твой карьерный апгрейд</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%236366f1'/%3E%3Cstop offset='100%25' style='stop-color:%23a855f7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M16 2L19 13H30L21 20L24 31L16 24L8 31L11 20L2 13H13L16 2Z' fill='url(%23g)'/%3E%3Ccircle cx='16' cy='16' r='4' fill='white'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <load
+      src="./partials/header.html"
+/>
+
+<main>
+  <section class="pages">
+      <div class="container">
+          <h1>Контактная информация</h1>
+
+          <p class="about__text">
+              Мы всегда открыты для предложений и готовы помочь вам в реализации вашего карьерного апгрейда. Свяжитесь с нами любым удобным для вас способом.
+          </p>
+
+          <div class="contact-details-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;">
+
+              <div class="benefit-card">
+                  <div class="benefit-card__icon">
+                      <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <h3>Телефон</h3>
+                  <p>Для звонков из Великобритании и Европы:</p>
+                  <a href="tel:+442064971564" style="color: var(--accent); font-size: 20px; font-weight: 700; text-decoration: none;">+44 20 6497 1564</a>
+              </div>
+
+              <div class="benefit-card">
+                  <div class="benefit-card__icon">
+                      <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <h3>Электронная почта</h3>
+                  <p>По общим вопросам и поддержке:</p>
+                  <a href="mailto:hello@echo-spark.life" style="color: var(--accent); font-size: 20px; font-weight: 700; text-decoration: none;">hello@echo-spark.life</a>
+              </div>
+
+              <div class="benefit-card">
+                  <div class="benefit-card__icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <h3>Офис в Лондоне</h3>
+                  <p>Посещение по предварительной записи:</p>
+                  <address style="font-style: normal; color: var(--light); font-size: 18px; line-height: 1.4;">
+                      22 Bishopsgate, London,<br>EC2N 4BQ, United Kingdom
+                  </address>
+              </div>
+
+          </div>
+
+          <div style="margin-top: 60px; padding: 40px; background: rgba(255,255,255,0.02); border-radius: 24px; border: 1px solid rgba(255,255,255,0.05); text-align: center;">
+              <h3 style="margin-bottom: 15px;">График работы</h3>
+              <p style="color: var(--text-muted);">Понедельник — Пятница: 09:00 – 18:00 (GMT)</p>
+              <p style="color: var(--text-muted);">Суббота — Воскресенье: Выходной</p>
+          </div>
+      </div>
+  </section>
+</main>
+
+    <load src="./partials/footer.html" />
+    <div class="cookie-popup" id="cookiePopup">
+      <div class="cookie-popup__content">
+          <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie политике</a>.</p>
+          <button class="btn btn--primary btn--sm" id="acceptCookies">Принять</button>
+      </div>
+  </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
